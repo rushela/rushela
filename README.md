@@ -1,6 +1,7 @@
 <!---- banner image (optional) -->
 <p align="center">
-  <img src="https://i.imgur.com/YOUR_BANNER.png" alt="header" width="100%"/>
+ <img src="https://raw.githubusercontent.com/rushela/rushela/banner.png"
+       alt="header" width="100%"/>
 </p>
 
 <h1 align="center">Hi 👋, I’m Rushel Ekanayaka</h1>
