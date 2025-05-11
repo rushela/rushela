@@ -1,8 +1,9 @@
 <!---- banner image (optional) -->
 <p align="center">
- <img src="[https://raw.githubusercontent.com/rushela/rushela/banner.png](https://raw.githubusercontent.com/rushela/rushela/main/assets/banner.png)"
+  <img src="https://raw.githubusercontent.com/rushela/rushela/main/assets/banner.png"
        alt="header" width="100%"/>
 </p>
+
 
 <h1 align="center">Hi 👋, I’m Rushel Ekanayaka</h1>
 <p align="center"><em>Full-Stack & Mobile Developer | Data Science Enthusiast</em></p>
