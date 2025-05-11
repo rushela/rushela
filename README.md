@@ -38,6 +38,7 @@
 <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white"/>
 <img alt="C" src="https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=white"/>
 <img alt="C++" src="https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white"/>
+<img alt="SQL" src="https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white"/>
 
 </p>
 
