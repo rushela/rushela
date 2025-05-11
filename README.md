@@ -49,9 +49,8 @@
 
 ---
 
-## 🚀 Featured Projects 
-<img src="https://raw.githubusercontent.com/rushela/rushela/main/assets/file.gif"
-       alt="animated banner" width="12%"/>
+<img src="https://raw.githubusercontent.com/rushela/rushela/main/assets/file.gif" alt="animated banner" width="8%"/>## 🚀 Featured Projects                                 
+
 | Project | Description                              | Tech                  | Link                    |
 |:-------:|:-----------------------------------------|:---------------------:|:-----------------------:|
 | 🔗 [PersonalPortfolio](https://github.com/rushela/PersonalPortfolio)         | Ts + Tailwind portfolio site | Typescript·Tailwind        | [Live](https://personal-portfolio-4si4ttaot-rushelas-projects.vercel.app/)                 |
