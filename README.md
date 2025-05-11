@@ -1,5 +1,10 @@
 <!---- banner image (optional) -->
 <p align="center">
+  <img src="https://i.imgur.com/yourGifId.gif" alt="animated banner" width="100%"/>
+</p>
+
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/rushela/rushela/main/assets/banner.gif" alt="Animated Banner" width="100%"/>
 </p>
 
