@@ -6,7 +6,7 @@
 
 
 <h1 align="center">Hi 👋, I’m Rushel Ekanayaka</h1>
-<p align="center"><em>Full-Stack & Mobile Developer | Data Science Enthusiast</em></p>
+<p align="center"><em>Full-Stack | Data Science Enthusiast</em></p>
 
 <p align="center">
   <a href="https://linkedin.com/in/rushela-ekanayaka-357072345">
@@ -29,6 +29,15 @@
   <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-0095D5?logo=kotlin&logoColor=white"/>
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white"/>
   <img alt="R" src="https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white"/>
+   <img alt="Java" src="https://img.shields.io/badge/Java-007396?logo=java&logoColor=white"/>
+<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black"/>
+<img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white"/>
+<img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white"/>
+<img alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white"/>
+<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white"/>
+<img alt="C" src="https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=white"/>
+<img alt="C++" src="https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white"/>
+
 </p>
 
 ---
@@ -36,9 +45,9 @@
 ## 🚀 Featured Projects
 | Project | Description                              | Tech                  | Link                    |
 |:-------:|:-----------------------------------------|:---------------------:|:-----------------------:|
-| 🔗 [team-collaboration-project](https://github.com/rushela/team-collaboration-project) | MERN-stack teamwork & CI/CD   | Mongo·Express·React·Node  | [Repo](…) · [Demo](…)     |
-| 🔗 [PersonalPortfolio](https://github.com/rushela/PersonalPortfolio)         | Next.js + Tailwind portfolio site | Next.js·Tailwind        | [Live](…)                 |
-| 🔗 [SmartExpense](https://github.com/rushela/SmartExpense)                   | Android finance tracker (Room)     | Kotlin·Room·Coroutines   | [PlayStore](…)            |
+| 🔗 [PersonalPortfolio](https://github.com/rushela/PersonalPortfolio)         | Ts + Tailwind portfolio site | Typescript·Tailwind        | [Live](https://personal-portfolio-4si4ttaot-rushelas-projects.vercel.app/)                 |
+|🔗 [team-collaboration-project](https://github.com/rushela/team-collaboration-project) | MERN-stack teamwork & CI/CD   | Mongo·Express·React·Node  | [Live](https://team-sync-ccq81z06e-rushelas-projects.vercel.app/) |
+| 🔗 [View More]((https://github.com/rushela?tab=repositories))    |
 
 ---
 
