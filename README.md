@@ -49,7 +49,7 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/rushela/rushela/main/assets/file.gif" alt="animated banner" width="2%"/>## 🚀 Featured Projects                                 
+🚀 Featured Projects  <img src="https://raw.githubusercontent.com/rushela/rushela/main/assets/file.gif" alt="animated banner" width="4%"/>                               
 
 | Project | Description                              | Tech                  | Link                    |
 |:-------:|:-----------------------------------------|:---------------------:|:-----------------------:|
