@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rushela/rushela/main/assets/animated-banner.gif"
+  <img src="https://raw.githubusercontent.com/rushela/rushela/main/assets/me.gif"
        alt="animated banner" width="12%"/>
 </p>
 
