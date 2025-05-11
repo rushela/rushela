@@ -5,7 +5,7 @@
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/rushela/rushela/main/assets/animated-banner.gif"
-       alt="animated banner" width="100%"/>
+       alt="animated banner" width="50%"/>
 </p>
 
 
