@@ -1,18 +1,5 @@
 <!---- banner image (optional) -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=500&color=F7931E&center=true&vCenter=true&width=435&lines=Hi+%F0%9F%91%8B%2C+I%E2%80%99m+Rushela+Ekanayaka;Full-Stack+Developer;Data+Science+Enthusiast" alt="Typing SVG" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=500&color=F7931E&center=true&vCenter=true&width=800&lines=Welcome+to+My+GitHub+Profile;I%E2%80%99m+Rushela+Ekanayaka;Full-Stack+Developer+%7C+Data+Science+Enthusiast" alt="Typing SVG" />
-</p>
-
---------------------------
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=500&color=F7931E&center=true&vCenter=true&width=800&lines=Welcome+to+My+GitHub+Profile;I%E2%80%99m+Rushela+Ekanayaka;Full-Stack+Developer+%7C+Data+Science+Enthusiast" alt="Typing SVG" />
-</p>
-------------------------
-<p align="center">
   <img src="https://raw.githubusercontent.com/rushela/rushela/main/assets/banner.gif" alt="Animated Banner" width="100%"/>
 </p>
 
