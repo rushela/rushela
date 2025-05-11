@@ -1,6 +1,6 @@
 <!---- banner image (optional) -->
 <p align="center">
- <img src="https://raw.githubusercontent.com/rushela/rushela/banner.png"
+ <img src="[https://raw.githubusercontent.com/rushela/rushela/banner.png](https://raw.githubusercontent.com/rushela/rushela/main/assets/banner.png)"
        alt="header" width="100%"/>
 </p>
 
