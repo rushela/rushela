@@ -6,7 +6,7 @@
 </p>
 
 
-<h1 align="center">Hi 👋, I’m Rushel Ekanayaka</h1>
+<h1 align="center">Hi 👋, I’m Rushela Ekanayaka</h1>
 <p align="center"><em>Full-Stack | Data Science Enthusiast</em></p>
 
 <p align="center">
@@ -16,9 +16,10 @@
   <a href="https://personal-portfolio-six-topaz-28.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-Visit%20Site-00C853"/>
   </a>
-  <a href="(https://mail.google.com/mail/?view=cm&fs=1&to=rushelbit17@gmail.com)">
-    <img src="https://img.shields.io/badge/Email-me-via%20Gmail-EA4335?logo=gmail&logoColor=white"/>
-  </a>
+ <a href="mailto:your.rushelbit17@gmail.com">
+  <img alt="Email" src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white"/>
+</a>
+
 </p>
 
 ---
