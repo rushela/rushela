@@ -46,8 +46,7 @@
 | Project | Description                              | Tech                  | Link                    |
 |:-------:|:-----------------------------------------|:---------------------:|:-----------------------:|
 | 🔗 [PersonalPortfolio](https://github.com/rushela/PersonalPortfolio)         | Ts + Tailwind portfolio site | Typescript·Tailwind        | [Live](https://personal-portfolio-4si4ttaot-rushelas-projects.vercel.app/)                 |
-|🔗 [team-collaboration-project]((https://github.com/rushela/HolidayWorld-Travel)) |Ts + Tailwind   | Typescript·Tailwind    | [Live]((https://holiday-world-travel.vercel.app/)) |
-|🔗 [Holiday_World_Travel]() | MERN-stack teamwork & CI/CD   | Mongo·Express·React·Node  | [Live](https://team-sync-ccq81z06e-rushelas-projects.vercel.app/) |
+|🔗 [Holiday_World_Travel](https://github.com/rushela/HolidayWorld-Travel) |Ts + Tailwind portfolio site | Typescript·Tailwind        | [Live](https://holiday-world-travel.vercel.app/) |
 |🔗 [team-collaboration-project](https://github.com/rushela/team-collaboration-project) | MERN-stack teamwork & CI/CD   | Mongo·Express·React·Node  | [Live](https://team-sync-ccq81z06e-rushelas-projects.vercel.app/) |
 
  🔗 [View_More]((https://github.com/rushela?tab=repositories))    
