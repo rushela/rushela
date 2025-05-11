@@ -16,7 +16,7 @@
   <a href="https://personal-portfolio-six-topaz-28.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-Visit%20Site-00C853"/>
   </a>
-  <a href="mailto:edirisinghehasara03@gmail.com">
+  <a href="(https://mail.google.com/mail/?view=cm&fs=1&to=rushelbit17@gmail.com)">
     <img src="https://img.shields.io/badge/Email-me-via%20Gmail-EA4335?logo=gmail&logoColor=white"/>
   </a>
 </p>
