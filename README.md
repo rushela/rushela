@@ -48,9 +48,7 @@
 </p>
 
 ---
-## 🐍 My Contribution Snake
-![Contribution Snake](https://raw.githubusercontent.com/rushela/rushela/main/output/github-contribution-grid-snake.svg)
----
+
 
 ## 🚀 Featured Projects                               
 
@@ -67,3 +65,9 @@
 <p align="center">
   <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=rushela&show_icons=true&theme=dark"/>
 </p>
+
+## 🐍 My Contribution Snake
+<p>
+  ![Contribution Snake](https://raw.githubusercontent.com/rushela/rushela/main/output/github-contribution-grid-snake.svg)
+</p>
+
