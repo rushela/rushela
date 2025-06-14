@@ -2,24 +2,31 @@ name: 🐍 Generate Contribution Snake
 
 on:
   schedule:
-    - cron: '0 */12 * * *'      # every 12h
-  workflow_dispatch:           # manual “Run workflow” button
+    - cron: '0 */12 * * *'   # every 12 hours
+  workflow_dispatch:        # manual trigger
 
 jobs:
   snake:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v3
+        with:
+          # ensure GITHUB_TOKEN creds are available for the commit step
+          persist-credentials: true
+          fetch-depth: 0
 
-      - name: Generate snake
+      - name: Make output folder
+        run: mkdir -p output
+
+      - name: Generate snake animation
         uses: Platane/snk@v3
         with:
           github_user_name: rushela
           palette: github-dark
           output: output/github-contribution-grid-snake.svg
 
-      - name: Commit SVG
+      - name: Commit & push SVG
         uses: EndBug/add-and-commit@v9
         with:
           author_name: 'Rushela Ekanayaka'
