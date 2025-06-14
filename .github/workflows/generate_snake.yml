@@ -2,8 +2,8 @@ name: 🐍 Generate Contribution Snake
 
 on:
   schedule:
-    - cron: '0 */12 * * *'   # every 12 hours
-  workflow_dispatch:        # manual trigger
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
 
 jobs:
   snake:
@@ -12,7 +12,6 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
-          # ensure GITHUB_TOKEN creds are available for the commit step
           persist-credentials: true
           fetch-depth: 0
 
@@ -23,8 +22,12 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: rushela
+          github_token: ${{ secrets.GITHUB_TOKEN }}   # ← add this!
           palette: github-dark
           output: output/github-contribution-grid-snake.svg
+
+      - name: List files (sanity check)
+        run: ls -R .
 
       - name: Commit & push SVG
         uses: EndBug/add-and-commit@v9
