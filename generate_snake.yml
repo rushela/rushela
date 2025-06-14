@@ -1,0 +1,27 @@
+name: 🐍 Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'      # every 12 hours
+  workflow_dispatch:           # manual trigger button
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: rushela
+          output: output/github-contribution-grid-snake.svg?palette=github-dark
+
+      - name: Commit & push SVG
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: 'Rushela Ekanayaka'
+          author_email: 'your.rushelbit17@gmail.com'   # swap if different
+          message: 'chore: update snake animation'
+          file_pattern: 'output/github-contribution-grid-snake.svg'
