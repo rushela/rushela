@@ -66,6 +66,11 @@
   <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=rushela&show_icons=true&theme=dark"/>
 </p>
 
+## 🏆 GitHub Trophies
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=rushela&theme=radical&no-frame=true&margin-w=15&margin-h=15"/>
+</p>
+
 ## 🐍 My Contribution Snake
 <p>
   ![Contribution Snake](https://raw.githubusercontent.com/rushela/rushela/main/output/github-contribution-grid-snake.svg)
