@@ -73,6 +73,6 @@
 
 ## 🐍 My Contribution Snake
 <p>
-  ![Contribution Snake](https://raw.githubusercontent.com/rushela/rushela/main/output/github-contribution-grid-snake.svg)
+  ![Snake animation](https://github.com/rushela/rushela/blob/output/github-snake.svg)
 </p>
 
