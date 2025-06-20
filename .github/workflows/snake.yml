@@ -1,97 +1,80 @@
-name: GitHub Snake Game
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Snake Game</title>
+  <style>
+    canvas { background: #000; display: block; margin: 0 auto; }
+  </style>
+</head>
+<body>
+  <canvas id="game" width="400" height="400"></canvas>
+  <script>
+    const canvas = document.getElementById("game");
+    const ctx = canvas.getContext("2d");
 
+    const box = 20;
+    let snake = [{ x: 9 * box, y: 10 * box }];
+    let food = {
+      x: Math.floor(Math.random() * 19 + 1) * box,
+      y: Math.floor(Math.random() * 19 + 1) * box
+    };
+    let direction = null;
+    let score = 0;
 
+    document.addEventListener("keydown", e => {
+      if (e.key === "ArrowLeft" && direction !== "RIGHT") direction = "LEFT";
+      if (e.key === "ArrowUp" && direction !== "DOWN") direction = "UP";
+      if (e.key === "ArrowRight" && direction !== "LEFT") direction = "RIGHT";
+      if (e.key === "ArrowDown" && direction !== "UP") direction = "DOWN";
+    });
 
-on:
+    function draw() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-  # Schedule the workflow to run daily at midnight UTC
+      for (let i = 0; i < snake.length; i++) {
+        ctx.fillStyle = i === 0 ? "lime" : "green";
+        ctx.fillRect(snake[i].x, snake[i].y, box, box);
+      }
 
-  schedule:
+      ctx.fillStyle = "red";
+      ctx.fillRect(food.x, food.y, box, box);
 
-    - cron: "0 0 * * *"
+      let headX = snake[0].x;
+      let headY = snake[0].y;
 
+      if (direction === "LEFT") headX -= box;
+      if (direction === "RIGHT") headX += box;
+      if (direction === "UP") headY -= box;
+      if (direction === "DOWN") headY += box;
 
+      if (headX === food.x && headY === food.y) {
+        food = {
+          x: Math.floor(Math.random() * 19 + 1) * box,
+          y: Math.floor(Math.random() * 19 + 1) * box
+        };
+        score++;
+      } else {
+        snake.pop();
+      }
 
-  # Allow manual triggering of the workflow
+      const newHead = { x: headX, y: headY };
 
-  workflow_dispatch:
+      // Game over conditions
+      if (
+        headX < 0 || headX >= canvas.width ||
+        headY < 0 || headY >= canvas.height ||
+        snake.some(segment => segment.x === headX && segment.y === headY)
+      ) {
+        clearInterval(game);
+        alert("Game Over! Score: " + score);
+        return;
+      }
 
+      snake.unshift(newHead);
+    }
 
-
-  # Trigger the workflow on pushes to the main branch
-
-  push:
-
-    branches:
-
-      - main
-
-
-
-jobs:
-
-  generate:
-
-    runs-on: ubuntu-latest
-
-    timeout-minutes: 10
-
-
-
-    steps:
-
-      # Step 1: Checkout the repository
-
-      - name: Checkout Repository
-
-        uses: actions/checkout@v3
-
-
-
-      # Step 2: Generate the snake animations
-
-      - name: Generate GitHub Contributions Snake Animations
-
-        uses: Platane/snk@v3
-
-        with:
-
-          # GitHub username to generate the animation for
-
-          github_user_name: ${{ github.repository_owner }}
-
-
-
-          # Define the output files and their configurations
-
-          outputs: |
-
-            dist/github-snake.svg
-
-            dist/github-snake-dark.svg?palette=github-dark
-
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-
-        env:
-
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-
-
-      # Step 3: Deploy the generated files to the 'output' branch
-
-      - name: Deploy to Output Branch
-
-        uses: peaceiris/actions-gh-pages@v3
-
-        with:
-
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-
-          publish_dir: ./dist
-
-          publish_branch: output
-
-          # Optionally, you can set a custom commit message
-
-          commit_message: "Update snake animation [skip ci]"
+    const game = setInterval(draw, 100);
+  </script>
+</body>
+</html>
