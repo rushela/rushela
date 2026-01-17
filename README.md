@@ -45,34 +45,20 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img
-    alt="GitHub Stats"
-    src="https://github-readme-stats.vercel.app/api?username=rushela&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"
-  />
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rushela&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=rushela&theme=tokyonight&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rushela&layout=compact&theme=tokyonight&hide_border=true)
+
 </p>
 
-<p align="center">
-  <img
-    alt="GitHub Streak"
-    src="https://streak-stats.demolab.com?user=rushela&theme=tokyonight&hide_border=true"
-  />
-</p>
-
-<p align="center">
-  <img
-    alt="Top Languages"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=rushela&layout=compact&theme=tokyonight&hide_border=true"
-  />
-</p>
-
----
-
-<!-- ===================== TROPHIES (Updated) ===================== -->
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img
-    src="https://github-profile-trophy.vercel.app/?username=rushela&theme=tokyonight&no-frame=true&margin-w=10&margin-h=10&row=1&column=7"
-    alt="GitHub Trophies"
-  />
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=rushela&theme=tokyonight&no-frame=true&margin-w=10&margin-h=10&row=1&column=7)
+
 </p>
+
