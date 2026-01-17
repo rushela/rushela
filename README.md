@@ -1,4 +1,4 @@
-<!-- ===================== BANNER ===================== -->
+<!-- ===================== HERO (Dark Professional) ===================== -->
 <p align="center">
   <img
     src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=500&color=F7931E&center=true&vCenter=true&width=800&lines=Welcome+to+My+GitHub+Profile;I%E2%80%99m+Rushela+Ekanayaka;Full-Stack+Developer+%7C+Data+Science+Enthusiast"
@@ -11,9 +11,9 @@
 </p>
 
 <h1 align="center">Hi 👋, I’m Rushela Ekanayaka</h1>
-<p align="center"><em>Full-Stack | Data Science Enthusiast</em></p>
+<p align="center"><em>Full-Stack Developer · Data Science Enthusiast</em></p>
 
-<!-- ===================== LINKS ===================== -->
+<!-- ===================== QUICK LINKS ===================== -->
 <p align="center">
   <a href="https://linkedin.com/in/rushela-ekanayaka-357072345">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"/>
@@ -26,11 +26,17 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-Full--Stack%20%26%20Data%20Science-111827?style=for-the-badge" alt="Focus"/>
+  <img src="https://img.shields.io/badge/Currently-Building%20Projects%20%26%20Learning-111827?style=for-the-badge" alt="Currently"/>
+</p>
+
 ---
 
+<!-- ===================== TECH STACK ===================== -->
 ## 🛠 Tech Stack
 
-<p>
+<p align="center">
   <img alt="React" src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB"/>
   <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white"/>
   <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-0095D5?logo=kotlin&logoColor=white"/>
@@ -49,25 +55,33 @@
 
 ---
 
+<!-- ===================== PROJECTS ===================== -->
 ## 🚀 Featured Projects
+
+<p align="center"><em>Selected work with live demos — more in repositories.</em></p>
 
 | Project | Description | Tech | Link |
 |:--|:--|:--:|:--:|
-| 🔗 [PersonalPortfolio](https://github.com/rushela/PersonalPortfolio) | Ts + Tailwind portfolio site | Typescript · Tailwind | [Live](https://personal-portfolio-4si4ttaot-rushelas-projects.vercel.app/) |
-| 🔗 [Holiday_World_Travel](https://github.com/rushela/HolidayWorld-Travel) | Ts + Tailwind portfolio site | Typescript · Tailwind | [Live](https://holiday-world-travel.vercel.app/) |
+| 🔗 [PersonalPortfolio](https://github.com/rushela/PersonalPortfolio) | TS + Tailwind portfolio site | TypeScript · Tailwind | [Live](https://personal-portfolio-4si4ttaot-rushelas-projects.vercel.app/) |
+| 🔗 [Holiday_World_Travel](https://github.com/rushela/HolidayWorld-Travel) | TS + Tailwind portfolio site | TypeScript · Tailwind | [Live](https://holiday-world-travel.vercel.app/) |
 | 🔗 [team-collaboration-project](https://github.com/rushela/team-collaboration-project) | MERN-stack teamwork & CI/CD | Mongo · Express · React · Node | [Live](https://team-sync-ccq81z06e-rushelas-projects.vercel.app/) |
 | 🔗 [View_More](https://github.com/rushela?tab=repositories) | <img src="https://raw.githubusercontent.com/rushela/rushela/main/assets/file.gif" alt="animated banner" width="18%"/> | --- | --- |
 
 ---
 
+<!-- ===================== STATS ===================== -->
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=rushela&show_icons=true&theme=dark"/>
+  <img
+    alt="GitHub Stats"
+    src="https://github-readme-stats.vercel.app/api?username=rushela&show_icons=true&theme=dark"
+  />
 </p>
 
 ---
 
+<!-- ===================== TROPHIES ===================== -->
 ## 🏆 GitHub Trophies
 
 <p align="center">
@@ -79,6 +93,7 @@
 
 ---
 
+<!-- ===================== SNAKE ===================== -->
 ## 🐍 My Contribution Snake
 
 <p align="center">
