@@ -10,8 +10,8 @@
   <img src="https://raw.githubusercontent.com/rushela/rushela/main/assets/animated-banner.gif" alt="animated banner" width="12%"/>
 </p>
 
-<h1 align="center">Hi 👋, I’m Rushela Ekanayaka</h1>
-<p align="center"><em>Full-Stack | Data Science Enthusiast</em></p>
+<h1 align="center">Hi 👋, I’M RUSHELA EKANAYAKA </h1>
+<p align="center"><em>Software Engineer | Data Science Enthusiast</em></p>
 
 <!-- ===================== QUICK LINKS (Updated Badges URL) ===================== -->
 <p align="center">
@@ -33,7 +33,7 @@
 
 <p align="center">
   <img
-    src="https://skillicons.dev/icons?i=react,nodejs,kotlin,python,r,java,js,html,css,php,ts,c,cpp,postgres&perline=7"
+    src="https://skillicons.dev/icons?i=nextjs,react,nodejs,kotlin,python,r,java,js,html,css,php,ts,c,cpp,postgres&perline=7"
     alt="Tech Stack Icons"
   />
 </p>
