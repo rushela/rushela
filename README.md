@@ -16,15 +16,16 @@
 <!-- ===================== QUICK LINKS (Updated Badges URL) ===================== -->
 <p align="center">
   <a href="https://linkedin.com/in/rushela-ekanayaka-357072345">
-    <img src="https://badgen.net/badge/LinkedIn/Connect/0A66C2?icon=linkedin" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Rushela%20Ekanayaka-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="https://personal-portfolio-six-topaz-28.vercel.app/">
-    <img src="https://badgen.net/badge/Portfolio/Visit%20Site/00C853?icon=chrome" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/Portfolio-Visit%20Site-00C853?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
   </a>
   <a href="mailto:your.rushelbit17@gmail.com">
-    <img src="https://badgen.net/badge/Email/Contact/D14836?icon=gmail" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-your.rushelbit17%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
+
 
 ---
 
