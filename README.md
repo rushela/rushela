@@ -20,7 +20,7 @@
   <a href="https://linkedin.com/in/rushela-ekanayaka-357072345">
     <img src="https://img.shields.io/badge/LinkedIn-Rushela%20Ekanayaka-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://personal-portfolio-six-topaz-28.vercel.app/">
+  <a href="https://rushela.xyz/">
     <img src="https://img.shields.io/badge/Portfolio-Visit%20Site-00C853?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
   </a>
   <a href="mailto:your.rushelbit17@gmail.com">
