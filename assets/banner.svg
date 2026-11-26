@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Rushela Ekanayaka, Software Engineer and Data Science Enthusiast">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#17233f"/>
+    </linearGradient>
+    <linearGradient id="accent" gradientUnits="userSpaceOnUse" x1="80" y1="0" x2="1130" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .line { stroke-dasharray: 520; animation: draw 1.8s ease-out both; }
+    .dot { animation: pulse 3s ease-in-out infinite; }
+    .d2 { animation-delay: .6s; } .d3 { animation-delay: 1.2s; } .d4 { animation-delay: 1.8s; }
+    @keyframes draw { from { stroke-dashoffset: 520; } to { stroke-dashoffset: 0; } }
+    @keyframes pulse { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .line, .dot { animation: none; } }
+  </style>
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <g stroke="url(#accent)" stroke-width="1.5" fill="none" opacity=".5">
+    <path d="M900 80 L990 140 L1080 70 L1130 180 L1030 230 L990 140 L880 205 L1030 230"/>
+  </g>
+  <g fill="#7dd3fc">
+    <circle class="dot" cx="900" cy="80" r="6"/>
+    <circle class="dot d2" cx="990" cy="140" r="9"/>
+    <circle class="dot d3" cx="1080" cy="70" r="6"/>
+    <circle class="dot d4" cx="1130" cy="180" r="7"/>
+    <circle class="dot d2" cx="1030" cy="230" r="6"/>
+    <circle class="dot d3" cx="880" cy="205" r="5"/>
+  </g>
+  <text x="80" y="98" fill="#7dd3fc" font-size="22">Hi there, I'm</text>
+  <text x="78" y="162" fill="#f8fafc" font-size="56" font-weight="700">Rushela Ekanayaka</text>
+  <path class="line" d="M80 188 H600" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+  <text x="80" y="232" fill="#cbd5e1" font-size="26">Software Engineer  |  Data Science Enthusiast</text>
+</svg>
